@@ -1,0 +1,46 @@
+
+		form {
+			  width: 100%;
+			  
+			}
+			label,
+			input{
+			  display: inline-block;
+			}
+
+			label {
+			  width: 40%;
+			  text-align: right;
+			}
+
+			label+input {
+			  width: 40%;
+			  margin: 1% 10% 0 2%;
+			}
+
+			input+input {
+			  float: right;
+			}
+			textarea,select,input[type=text]{
+			  border-radius: 4px;
+			  box-sizing: border-box;
+			  width:40%;
+			   margin: 1% 10% 0 2%;
+			}
+			input[type=submit]{
+				width:80px;
+				 margin: 2% 10% 0 3%;
+			}
+			
+			.table{
+				border-collapse:collapse;
+				width:80%;
+				margin:auto;
+			}
+			th,
+			td {
+			  border: 1px solid #529432;
+			}
+			th {
+			  background: gray;
+			}
